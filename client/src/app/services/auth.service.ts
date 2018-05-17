@@ -10,7 +10,8 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  domain = 'http://localhost:8080/';
+  // domain = 'http://localhost:8080/'; posle zagruzki v xeroku put v@daiot oshibku dubliruem...
+  domain = '';
   authToken;
   user;
   options;
